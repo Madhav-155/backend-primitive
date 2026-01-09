@@ -284,7 +284,7 @@ ISC License
 
 ---
 
-**Built with ❤️ for learning full-stack development**
+
 
 ## 📖 Complete Documentation
 
