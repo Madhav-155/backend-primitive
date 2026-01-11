@@ -1,32 +1,32 @@
-# 🚀 Backend Primitive - Full Stack Task Manager
+# Backend Primitive - Full Stack Task Manager
 
 A complete full-stack application with scalable REST API, authentication, role-based access control, and a React frontend.
 
-## ✨ Features
+## Features
 
 ### Backend
-- ✅ User registration & login with JWT authentication
-- ✅ Password hashing with bcryptjs
-- ✅ Role-based access control (User & Admin)
-- ✅ CRUD operations for tasks
-- ✅ API versioning (v1)
-- ✅ Centralized error handling
-- ✅ Input validation with express-validator
-- ✅ MySQL database with proper schema
-- ✅ API documentation (Postman collection)
-- ✅ Protected routes with JWT middleware
+- User registration and login with JWT authentication
+- Password hashing with bcryptjs
+- Role-based access control (User and Admin)
+- CRUD operations for tasks
+- API versioning (v1)
+- Centralized error handling
+- Input validation with express-validator
+- MySQL database with proper schema
+- API documentation (Postman collection)
+- Protected routes with JWT middleware
 
 ### Frontend
-- ✅ React.js with React Router
-- ✅ User registration & login UI
-- ✅ Protected dashboard
-- ✅ Task management interface (Create, Read, Update, Delete)
-- ✅ Role-based UI elements
-- ✅ Success/error message handling
-- ✅ Responsive design
-- ✅ JWT token management
+- React.js with React Router
+- User registration and login UI
+- Protected dashboard
+- Task management interface (Create, Read, Update, Delete)
+- Role-based UI elements
+- Success and error message handling
+- Responsive design
+- JWT token management
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **Framework**: Node.js, Express.js
@@ -43,7 +43,7 @@ A complete full-stack application with scalable REST API, authentication, role-b
 - **State Management**: Context API
 - **Styling**: Custom CSS with gradient design
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js (v14+)
@@ -108,13 +108,13 @@ npm start
 - Backend API: http://localhost:5000/api/v1
 - Health Check: http://localhost:5000/health
 
-## 📚 Documentation
+## Documentation
 
 - **[Complete Setup Guide](SETUP_GUIDE.md)** - Detailed installation and configuration
 - **[API Testing Guide](API_TESTING_GUIDE.md)** - How to test APIs with curl/Postman
 - **[Postman Collection](postman/Backend_Primitive_API.postman_collection.json)** - Import and test all endpoints
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 backend-primitive/
@@ -136,7 +136,7 @@ backend-primitive/
 └── README.md
 ```
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Authentication (Public)
 - `POST /api/v1/auth/register` - Register a new user
@@ -152,7 +152,7 @@ backend-primitive/
 - `PUT /api/v1/tasks/:id` - Update task
 - `DELETE /api/v1/tasks/:id` - Delete task (Admin only)
 
-## 👥 User Roles
+## User Roles
 
 ### User Role
 - Create and manage their own tasks
@@ -164,7 +164,7 @@ backend-primitive/
 - View all tasks from all users
 - Can delete any task
 
-## 🎨 Frontend Features
+## Frontend Features
 
 ### Pages
 - **Login** - User authentication
@@ -182,7 +182,7 @@ backend-primitive/
 - JWT token stored in localStorage
 - Auto-redirect on unauthorized access
 
-## 🧪 Testing the Application
+## Testing the Application
 
 ### 1. Register a User
 1. Go to http://localhost:3000
@@ -208,7 +208,7 @@ backend-primitive/
 4. Set token in collection variables
 5. Test all endpoints
 
-## 🔒 Security Features
+## Security Features
 
 - Password hashing with bcryptjs (10 salt rounds)
 - JWT tokens with expiration (24h default)
@@ -219,7 +219,7 @@ backend-primitive/
 - CORS configuration
 - Error message sanitization
 
-## ⚙️ Configuration
+## Configuration
 
 ### Environment Variables (.env)
 ```env
@@ -235,7 +235,7 @@ JWT_EXPIRE=24h               # Token expiration
 FRONTEND_URL=http://localhost:3000  # CORS origin
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Database Connection Failed
 - Verify MySQL is running
@@ -255,7 +255,7 @@ FRONTEND_URL=http://localhost:3000  # CORS origin
 - Re-login to get new token
 - Check token hasn't expired
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 Potential features to add:
 - Password reset functionality
@@ -269,7 +269,7 @@ Potential features to add:
 - Export tasks to CSV/PDF
 - Dark mode
 
-## 🤝 Contributing
+## Contributing
 
 This is a learning project showcasing:
 - RESTful API design
@@ -278,7 +278,7 @@ This is a learning project showcasing:
 - Frontend-backend integration
 - Security best practices
 
-## 📄 License
+## License
 
 ISC License
 
@@ -286,7 +286,7 @@ ISC License
 
 
 
-## 📖 Complete Documentation
+## Complete Documentation
 
 - **[INDEX.md](INDEX.md)** - Documentation index and navigation guide
 - **[GETTING_STARTED.md](GETTING_STARTED.md)** - Visual 10-minute setup guide  
